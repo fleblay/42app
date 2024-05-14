@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: 42-service
+spec:
+  type: NodePort
+  ports:
+    - targetPort: 8888
+      nodePort: 30008
+  selector:
+    app: 42-app
