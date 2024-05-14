@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: 42-service
+  name: forty-two-service
 spec:
   type: NodePort
   ports:
